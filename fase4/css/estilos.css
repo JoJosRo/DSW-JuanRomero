@@ -1,0 +1,56 @@
+header{
+
+background-color:lightseagreen;
+padding: 9px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+nav{
+
+background-color: aqua;
+padding: 10px;
+}
+
+section{
+float: left;
+width: 70%;
+background-color:paleturquoise;
+height: 610px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+footer{
+   
+    background-color:aquamarine;
+    padding: 10px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+aside{
+   float:right;
+   width: 30%;
+   height: 610px;
+    background-color: cornflowerblue;
+}
+
+.Contenido::after{
+   content: "";
+    display: block;   
+    clear: both;
+}
